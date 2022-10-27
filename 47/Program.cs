@@ -13,7 +13,8 @@ void InputMatrix(double[,] matrix)
             /* matrix[i, j] = new Random().NextDouble();
             Console.Write($"{matrix[i, j]} \t"); */
 
-            matrix[i, j] = new Random().Next(-10, 10) + new Random().NextDouble() * 10;
+            //matrix[i, j] = new Random().Next(-10, 10) + new Random().NextDouble() * 10;
+            matrix[i, j] = new Random().Next(-10, 10) * new Random().NextDouble();
             Console.Write($"{matrix[i, j]:f1} \t");
         }
         Console.WriteLine();
