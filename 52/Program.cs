@@ -49,6 +49,4 @@ int[,] matrix = new int[n, m];
 
 Console.WriteLine("Массив: ");
 InputMatrix(matrix);
-/* PrintMatrix(matrix); */
-
 PrintMatrixAvg(matrix);
