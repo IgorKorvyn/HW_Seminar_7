@@ -35,7 +35,6 @@ void PrintMatrixAvg(int[,] matrix)
         avrgColumn = sumColumn / matrix.GetLength(0);
         Console.Write($"Сумма {j + 1} столбца = {sumColumn} ");
         Console.WriteLine($" Среднеарифметическое столбца = {avrgColumn:f1}");
-        /* Console.WriteLine($"{avrgColumn} \t"); */
         sumColumn = 0;
     }
 
